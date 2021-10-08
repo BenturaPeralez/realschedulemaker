@@ -1,4 +1,4 @@
-$(`#timeFormatOne`).text(moment().format("MM/DD/YYYY HH:mm:ss"));
+$(`#timeFormatOne`).text(moment().format("MM/DD/YYYY"));
 
 $(".saveBtn").on("click", function(){
     let text = $(this).siblings(".textareacontainer").children("textarea").val();
